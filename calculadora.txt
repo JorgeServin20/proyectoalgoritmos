@@ -1,0 +1,52 @@
+linea de codigo 1
+
+
+linea de codigo 2
+
+
+linea de codigo 3
+
+Algoritmo calculadora
+
+
+	Definir opc, a, b, resultado Como Real
+	
+	escribir "escribe un numero";
+	   leer a
+	escribir " escribir un numero";
+	   leer b
+	   escribir " ";
+	   
+	   escribir " 1 = suma";
+	   
+	   escribir " 2 = resta";
+	   
+	   escribir " 3 = multiplicacion";
+	   
+	   escribir " 4 division";
+	   
+	   escribir "salir con otro numero";
+	   
+	   escribir " ";
+	   	   
+	   leer operacion
+	   
+	   Segun operacion Hacer
+		   1:resultado <- a + b
+		
+			   escribir "la suma de " a," + " b, " = " resultado
+			    
+		   2:resultado <- a - b
+			   escribir " la resta de " a, " - " b, " = ", resultado
+			   
+		   3: resultado <- a + b
+			   escribir " la multiplicacion de " a, " * " b, " = " resultado
+			   
+		   4: resultado <- a / b 
+			   escribir " la division de " a, " / " b, " = " resultado
+			   
+			   
+		   De Otro Modo:
+			  escribir " sistema finalizado "
+ 	   FinSegun
+FinAlgoritmo
